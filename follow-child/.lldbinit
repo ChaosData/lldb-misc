@@ -1,0 +1,11 @@
+settings set target.x86-disassembly-flavor intel
+log enable -f ./lldb-log.txt lldb api state process
+
+command script import follow-child/__init__.py
+
+b main
+b test
+r
+follow-child
+# continue
+# continue

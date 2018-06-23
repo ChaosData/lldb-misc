@@ -1,0 +1,4 @@
+*.dSYM/
+test
+lldb-log.txt
+.idea/
